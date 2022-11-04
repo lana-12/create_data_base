@@ -26,17 +26,18 @@ ALTER TABLE reservation ADD FOREIGN KEY (id_payment) REFERENCES payment (id_paym
 
 --Attention je me suis trompée de relation
 -- Table associative
-CREATE table seance_tarif
-(
-    id_seance_tarif INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    id_seance INT,
-    id_tarif INT,
-    FOREIGN KEY (id_seance) REFERENCES seance (id_seance),
-    FOREIGN KEY (id_tarif) REFERENCES tarif (id_tarif)
-)engine=INNODB;
+-- CREATE table seance_tarif
+-- (
+--     id_seance_tarif INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+--     id_seance INT,
+--     id_tarif INT,
+--     FOREIGN KEY (id_seance) REFERENCES seance (id_seance),
+--     FOREIGN KEY (id_tarif) REFERENCES tarif (id_tarif)
+-- )engine=INNODB;
 
-DROP TABLE seance_tarif;
+-- DROP TABLE seance_tarif;
 
+--Table User
 --Edit relation entre tarif et user
 ALTER TABLE user ADD id_tarif INT;
 ALTER TABLE user ADD FOREIGN KEY (id_tarif) REFERENCES tarif (id_tarif);

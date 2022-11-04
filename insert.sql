@@ -113,6 +113,11 @@ insert into tarif (price, title) values
 (7.60, 'Etudiant'),
 (5.90, 'Moins de 14 ans');
 
+-- Insert reservation
+INSERT INTO reservation (date_reservation, id_seance, id_user, id_payment) VALUES
+('2021-09-05', 6, 16, 5),
+('2021-09-01', 8,18,1)
+;
 
 --Table user
 insert into user (id_user, name, email, password, birthday, statut, role) values (4, 'Waye', 'vwaye3@ca.gov', '$2y$10$oCViOnvoYPDz1Y1XZvuirOVcy50HVbWubfCnhEtPGc63DUn3kU0Qe', '1982-12-03', 'Adulte', 'user');
@@ -152,3 +157,9 @@ insert into user (id_user, name, email, password, birthday, statut, role) values
 -- Ajout de privilège uniquement des seance de sa structure
 GRANT INSERT ON cinema.seance TO 'AdminMtp'@'localhost';
 GRANT INSERT ON cinema.hall TO 'AdminMtp'@'localhost';
+
+-- Insert reservation
+INSERT INTO reservation (date_reservation, id_seance, id_user, id_payment) VALUES
+('2021-09-05', 6, 16, 5),
+('2021-09-01', 8,18,1)
+;

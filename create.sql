@@ -1,12 +1,10 @@
--- CREATion dataBase and table
+-- CREATION dataBase and table
 
 CREATE DATABASE IF NOT EXISTS cinema;
 -- spécifie le jeu de caractère en ciblant avec alter nomBDD
 ALTER DATABASE `cinema` COLLATE 'utf8mb4_unicode_ci';
 
---ok 
---zip_code en string car la corse c'est 2a ou 2b
--- moteur de stockage transactionnel = sécurise les transactions (request), il analyse tte la requete et ensuite il l'execute. Ameliore les performances
+-- engine=INNODB =>moteur de stockage transactionnel = sécurise les transactions (request), il analyse tte la requete et ensuite il l'execute. Ameliore les performances
 
 CREATE TABLE complex
 (
