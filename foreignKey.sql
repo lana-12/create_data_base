@@ -19,6 +19,12 @@ ALTER TABLE reservation ADD FOREIGN KEY (id_seance) REFERENCES seance (id_seance
 ALTER TABLE reservation ADD id_user INT;
 ALTER TABLE reservation ADD FOREIGN KEY (id_user) REFERENCES user (id_user);
 
+--Relation OneToOne des tables reservation et payment
+--Reservation qui possède un payment
+ALTER TABLE reservation ADD id_payment INT;
+ALTER TABLE reservation ADD FOREIGN KEY (id_payment) REFERENCES payment (id_payment);
+
+--Attention je me suis trompée de relation
 -- Table associative
 CREATE table seance_tarif
 (
@@ -29,8 +35,9 @@ CREATE table seance_tarif
     FOREIGN KEY (id_tarif) REFERENCES tarif (id_tarif)
 )engine=INNODB;
 
---Relation OneToOne des tables reservation et payment
---Reservation qui possède un payment
+DROP TABLE seance_tarif;
 
-ALTER TABLE reservation ADD id_payment INT;
-ALTER TABLE reservation ADD FOREIGN KEY (id_payment) REFERENCES payment (id_payment);
+--Edit relation entre tarif et user
+ALTER TABLE user ADD id_tarif INT;
+ALTER TABLE user ADD FOREIGN KEY (id_tarif) REFERENCES tarif (id_tarif);
+
