@@ -115,31 +115,31 @@ insert into tarif (price, title) values
 
 
 --Table user
-insert into user (id_user, name, email, password, birthday, status, role) values (4, 'Waye', 'vwaye3@ca.gov', '$2y$10$oCViOnvoYPDz1Y1XZvuirOVcy50HVbWubfCnhEtPGc63DUn3kU0Qe', '1982-12-03', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (6, 'Carbry', 'bcarbry5@yolasite.com', '$2y$10$ModikZA16y48usxZnSK9zeIrHH.If0RXFJrdfVx//.xQrViZRWwwu', '1976-09-13', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (8, 'Liveley', 'sliveley7@netlog.com', '$2y$10$LElPrQ3q8Vv/D/RrNyeVPesBxr/wgl7dTnlCHw55YD3ub3/lwklO6', '1963-06-27', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (10, 'Semkins', 'rsemkins9@rediff.com', '$2y$10$ZEBwWUASaXpCTc0vyqoGLuUeY61zb.y8CAawxrDc2DCPERsnAJD6O', '1992-07-20', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (13, 'Blunden', 'pblundenc@sourceforge.net', '$2y$10$xM8aPDnDCRfA5fh9HEXkjOiHZQbfQjeQBo5jMpms6ZAL8xI4skmYu', '1986-07-20', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (16, 'Brideaux', 'ebrideauxf@shutterfly.com', '$2y$10$W/8eRX50qtG9NeU.6ovUQ.n7lfDabNzM60qH1njUAo/w/L4cw/p12', '1970-11-16', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (17, 'Rewbottom', 'urewbottomg@fc2.com', '$2y$10$s8gnhMGH5DR1p9m.KLi3Xe7NYflAEhrnXuluReUJO3IXy8S3A4lU.', '1958-02-26','Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (19, 'Halleybone', 'ghalleybonei@bandcamp.com', '$2y$10$/LEroWIsaAssYqNX1zXbUuJLvwlOBbwqCt6heUNM4obfKRIs.AT5C', '1956-02-23', 'Adulte', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (2, 'Saxon', 'dsaxon1@nifty.com', '$2y$10$eNoFQ7btUAfo5SehZ2mcxu.8iMRhyHwDE.z3SC1uj92KCAJ7bFcBW', '2010-11-23', 'Moins de 14ans', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (5, 'Romayne', 'lromayne4@uiuc.edu', '$2y$10$yeSkRaOq4mGcuJy5vBtdVe7RbyKlxmjwaSXDaosYM/u6Y61oa5l6q', '2012-07-08', 'Moins de 14ans', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (11, 'Sirmond', 'tsirmonda@cbslocal.com', '$2y$10$2k0wIB79qAEBdqsvPyrdtuEvQZQ9htVAM66fz/L7AHDw0CR.bUaoS', '2016-05-19', 'Moins de 14ans', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (14, 'Watts', 'mwattsd@miibeian.gov.cn', '$2y$10$gaIdSxHYxbH2qqoAOwnJF.JHgn6FKWxjVZLPgRu.0.eOk0cmsjDEO', '2015-11-07', 'Moins de 14ans', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (20, 'Bruhnke', 'mbruhnkej@eventbrite.com', '$2y$10$hrAy6vg0YthCPfZYO540WOW7PsWJD8emw5V19TCvsil9OQ7meam7C', '2011-08-03', 'Moins de 14ans', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (18, 'Haxbie', 'rhaxbieh@earthlink.net', '$2y$10$QQJdD8e1ZjjcLbGg7zriAOHjSe8WbXP7WAqcOV92ZKjWEZaUMMJxm', '2000-05-24', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (15, 'Grinval', 'ngrinvale@cnbc.com', '$2y$10$RerXBSrGaUaTTLLK6twyAOiM4wgZZzHpZllwbgV6Fz6L08jTABYI.', '2000-08-17', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (12, 'Ceeley', 'mceeleyb@tmall.com', '$2y$10$mg/4L6ne0yUfUQd2Elj1Z.swAjTeAcEN1jYPaGMvICc8/z7AktDE2', '2000-11-15', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (9, 'Dawby', 'adawby8@prweb.com', '$2y$10$IqRMY18JLO0VNQf7qPTkBuy5uBnp6PpZazblxMK6HTgPt8QWQ3UB6', '2000-03-03', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (7, 'Hundall', 'vhundall6@taobao.com', '$2y$10$oe/Tlwm/d.JJ.5Qp6TlQEeMdF99X7NIxIfhraOxbLDCIP/.xnuYQ.', '2000-06-30', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (3, 'Eade', 'jeade2@aol.com', '$2y$10$Yaq5EO7AOHndDr.Msf3BVeYUfP2KFGjXKXOriqftI3OSic4u.plTa', '2000-11-27', 'Etudiant', 'user');
-insert into user (id_user, name, email, password, birthday, status, role) values (1, 'Jessop', 'fjessop0@google.ru', '$2y$10$nGyHJkO0uA2J1TC5Aj1HEOrg5YmHjdFUJWk5Zhxv6y4C2.dQpoYAC', '2000-05-12', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (4, 'Waye', 'vwaye3@ca.gov', '$2y$10$oCViOnvoYPDz1Y1XZvuirOVcy50HVbWubfCnhEtPGc63DUn3kU0Qe', '1982-12-03', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (6, 'Carbry', 'bcarbry5@yolasite.com', '$2y$10$ModikZA16y48usxZnSK9zeIrHH.If0RXFJrdfVx//.xQrViZRWwwu', '1976-09-13', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (8, 'Liveley', 'sliveley7@netlog.com', '$2y$10$LElPrQ3q8Vv/D/RrNyeVPesBxr/wgl7dTnlCHw55YD3ub3/lwklO6', '1963-06-27', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (10, 'Semkins', 'rsemkins9@rediff.com', '$2y$10$ZEBwWUASaXpCTc0vyqoGLuUeY61zb.y8CAawxrDc2DCPERsnAJD6O', '1992-07-20', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (13, 'Blunden', 'pblundenc@sourceforge.net', '$2y$10$xM8aPDnDCRfA5fh9HEXkjOiHZQbfQjeQBo5jMpms6ZAL8xI4skmYu', '1986-07-20', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (16, 'Brideaux', 'ebrideauxf@shutterfly.com', '$2y$10$W/8eRX50qtG9NeU.6ovUQ.n7lfDabNzM60qH1njUAo/w/L4cw/p12', '1970-11-16', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (17, 'Rewbottom', 'urewbottomg@fc2.com', '$2y$10$s8gnhMGH5DR1p9m.KLi3Xe7NYflAEhrnXuluReUJO3IXy8S3A4lU.', '1958-02-26','Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (19, 'Halleybone', 'ghalleybonei@bandcamp.com', '$2y$10$/LEroWIsaAssYqNX1zXbUuJLvwlOBbwqCt6heUNM4obfKRIs.AT5C', '1956-02-23', 'Adulte', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (2, 'Saxon', 'dsaxon1@nifty.com', '$2y$10$eNoFQ7btUAfo5SehZ2mcxu.8iMRhyHwDE.z3SC1uj92KCAJ7bFcBW', '2010-11-23', 'Moins de 14ans', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (5, 'Romayne', 'lromayne4@uiuc.edu', '$2y$10$yeSkRaOq4mGcuJy5vBtdVe7RbyKlxmjwaSXDaosYM/u6Y61oa5l6q', '2012-07-08', 'Moins de 14ans', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (11, 'Sirmond', 'tsirmonda@cbslocal.com', '$2y$10$2k0wIB79qAEBdqsvPyrdtuEvQZQ9htVAM66fz/L7AHDw0CR.bUaoS', '2016-05-19', 'Moins de 14ans', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (14, 'Watts', 'mwattsd@miibeian.gov.cn', '$2y$10$gaIdSxHYxbH2qqoAOwnJF.JHgn6FKWxjVZLPgRu.0.eOk0cmsjDEO', '2015-11-07', 'Moins de 14ans', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (20, 'Bruhnke', 'mbruhnkej@eventbrite.com', '$2y$10$hrAy6vg0YthCPfZYO540WOW7PsWJD8emw5V19TCvsil9OQ7meam7C', '2011-08-03', 'Moins de 14ans', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (18, 'Haxbie', 'rhaxbieh@earthlink.net', '$2y$10$QQJdD8e1ZjjcLbGg7zriAOHjSe8WbXP7WAqcOV92ZKjWEZaUMMJxm', '2000-05-24', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (15, 'Grinval', 'ngrinvale@cnbc.com', '$2y$10$RerXBSrGaUaTTLLK6twyAOiM4wgZZzHpZllwbgV6Fz6L08jTABYI.', '2000-08-17', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (12, 'Ceeley', 'mceeleyb@tmall.com', '$2y$10$mg/4L6ne0yUfUQd2Elj1Z.swAjTeAcEN1jYPaGMvICc8/z7AktDE2', '2000-11-15', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (9, 'Dawby', 'adawby8@prweb.com', '$2y$10$IqRMY18JLO0VNQf7qPTkBuy5uBnp6PpZazblxMK6HTgPt8QWQ3UB6', '2000-03-03', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (7, 'Hundall', 'vhundall6@taobao.com', '$2y$10$oe/Tlwm/d.JJ.5Qp6TlQEeMdF99X7NIxIfhraOxbLDCIP/.xnuYQ.', '2000-06-30', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (3, 'Eade', 'jeade2@aol.com', '$2y$10$Yaq5EO7AOHndDr.Msf3BVeYUfP2KFGjXKXOriqftI3OSic4u.plTa', '2000-11-27', 'Etudiant', 'user');
+insert into user (id_user, name, email, password, birthday, statut, role) values (1, 'Jessop', 'fjessop0@google.ru', '$2y$10$nGyHJkO0uA2J1TC5Aj1HEOrg5YmHjdFUJWk5Zhxv6y4C2.dQpoYAC', '2000-05-12', 'Etudiant', 'user');
 
 
 --Insert Admin global
-insert into user (id_user, name, email, password, birthday, status, role) values (21, 'AdminGlobal01', 'adminGlobal01@exemple', '$2y$10$ESo2QvwGv8hNQ7YiyXRM9u2Fzj9asIiZ4rTVazm6oyyu765jzVCDq', '1982-12-02', 'AdminG', 'AdminG');
-insert into user (id_user, name, email, password, birthday, status, role) values (22, 'AdminGlobal02', 'adminGlobal02@exemple', '$2y$10$i7OE6/eEo0Qnv7nM/WT3s.5xfsBdbveTqa97yVEs6GPm0UPQv7XJ.', '1975-06-21', 'AdminG', 'AdminG');
+insert into user (id_user, name, email, password, birthday, statut, role) values (21, 'AdminGlobal01', 'adminGlobal01@exemple', '$2y$10$ESo2QvwGv8hNQ7YiyXRM9u2Fzj9asIiZ4rTVazm6oyyu765jzVCDq', '1982-12-02', 'AdminG', 'AdminG');
+insert into user (id_user, name, email, password, birthday, statut, role) values (22, 'AdminGlobal02', 'adminGlobal02@exemple', '$2y$10$i7OE6/eEo0Qnv7nM/WT3s.5xfsBdbveTqa97yVEs6GPm0UPQv7XJ.', '1975-06-21', 'AdminG', 'AdminG');
 
 -- Ajout de privilège sur tout
 GRANT ALL PRIVILEGES ON * . * TO 'AdminGlobal01'@'localhost';
@@ -147,7 +147,7 @@ GRANT ALL PRIVILEGES ON * . * TO 'AdminGlobal02'@'localhost';
 
 
 --Insert Admin Montpellier 
-insert into user (id_user, name, email, password, birthday, status, role) values (23, 'AdminMtp', 'adminMontpellier@exemple', '$2y$10$ySm3mIkac3IfuxREy9wpi.JbV1gGwXCPcGlrW5jm8xBeV1ARWPNka', '1986-12-12', 'Admin', 'Admin');
+insert into user (id_user, name, email, password, birthday, statut, role) values (23, 'AdminMtp', 'adminMontpellier@exemple', '$2y$10$ySm3mIkac3IfuxREy9wpi.JbV1gGwXCPcGlrW5jm8xBeV1ARWPNka', '1986-12-12', 'Admin', 'Admin');
 
 -- Ajout de privilège uniquement des seance de sa structure
 GRANT INSERT ON cinema.seance TO 'AdminMtp'@'localhost';

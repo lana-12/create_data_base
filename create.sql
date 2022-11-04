@@ -68,6 +68,6 @@ CREATE TABLE user
     email VARCHAR(150) NOT NULL,
     password VARCHAR(60) NOT NULL,
     birthday date NOT NULL,
-    status VARCHAR(250) NOT NULL,
+    statut VARCHAR(250) NOT NULL,
     role VARCHAR(250) NOT NULL
 ) engine=INNODB;
