@@ -1,11 +1,15 @@
+-- supprime la base de donnée existante
+DROP DATABASE 'cinema';
+
 -- CREATION dataBase and table
+CREATE DATABASE IF NOT EXISTS cinema CHARACTER SET UTF8mb4 COLLATE utf8mb4_general_ci;
 
-CREATE DATABASE IF NOT EXISTS cinema;
--- spécifie le jeu de caractère en ciblant avec alter nomBDD
-ALTER DATABASE `cinema` COLLATE 'utf8mb4_unicode_ci';
 
--- engine=INNODB =>moteur de stockage transactionnel = sécurise les transactions (request), il analyse tte la requete et ensuite il l'execute. Ameliore les performances
+-- utiliser la base
+Use cinema;
 
+--Création de toutes les tables
+DROP TABLE IF EXISTS `complex`;
 CREATE TABLE complex
 (
     id_complex INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -15,6 +19,8 @@ CREATE TABLE complex
     phone VARCHAR(50) NOT NULL
 ) engine=INNODB;
 
+
+DROP TABLE IF EXISTS `seance`;
 CREATE TABLE seance
 (
     id_seance INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -22,6 +28,7 @@ CREATE TABLE seance
     heure_seance time NOT NULL
 ) engine=INNODB;
 
+DROP TABLE IF EXISTS `hall`;
 CREATE TABLE hall
 (
     id_hall INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -29,6 +36,7 @@ CREATE TABLE hall
     nb_place int(10) NOT NULL
 ) engine=INNODB;
 
+DROP TABLE IF EXISTS `movie`;
 CREATE TABLE movie
 (
     id_movie INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -37,6 +45,8 @@ CREATE TABLE movie
     release_date date NOT NULL
 ) engine=INNODB;
 
+
+DROP TABLE IF EXISTS `tarif`;
 CREATE TABLE tarif
 (
     id_tarif INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -44,12 +54,14 @@ CREATE TABLE tarif
     title VARCHAR(100) NOT NULL
 ) engine=INNODB;
 
+DROP TABLE IF EXISTS `reservation`;
 CREATE TABLE reservation
 (
     id_reservation INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     date_reservation date NOT NULL
 ) engine=INNODB;
 
+DROP TABLE IF EXISTS `payment`;
 CREATE TABLE payment
 (
     id_payment INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
@@ -59,6 +71,7 @@ CREATE TABLE payment
 ) engine=INNODB;
 
 -- Table user
+DROP TABLE IF EXISTS `user`;
 CREATE TABLE user
 (
     id_user INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
